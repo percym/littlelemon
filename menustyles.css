@@ -196,7 +196,6 @@ article button{
       margin-right: 70px;
       font-size: 12px;
       cursor: pointer;
-      font-family: 'merriweather';
 
   }
 
@@ -206,4 +205,19 @@ article button{
   }
   .pad-25{
     padding-left: 25px;
+  }
+
+  .footer-img{
+    width: 90px;
+    height: 90px;
+    margin-left: 32px;
+    cursor: pointer;
+  }
+
+  .footer-note{
+    text-align: end;
+    margin-right: 32px;
+    margin-top: 40px;
+    color:#495e57;
+
   }
