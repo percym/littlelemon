@@ -22,11 +22,14 @@ header{
 }
 
 .logo{
-    height: 60px;
-    width: 60px;
+    height: 68px;
+    width: 68px;
     cursor: pointer;
     margin-left: 40px;
+}
 
+.logo:hover{
+    transform: scale(1.2);
 }
 
 .nav-links{
@@ -214,6 +217,9 @@ article button{
     cursor: pointer;
   }
 
+  .footer-img:hover{
+    transform: scale(1.2);
+  }
   .footer-note{
     text-align: end;
     margin-right: 32px;
