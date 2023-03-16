@@ -2,9 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color:#495e57; */
     background-color: #ebf5f7;
-    font-family: 'Markazi', serif;
+    font-family: 'Markazi Text', serif;
 }
 
 li,a{
@@ -50,7 +49,7 @@ transition: all 0.3s ease 0s;
 
 button{
     padding: 9px 25px;
-    background-color: rgba(65, 94, 84,1);
+    background-color: #f4ce14;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -61,4 +60,66 @@ button{
 
 button:hover{
     background-color: rgba(0, 78, 51, 0.3);
+}
+
+
+h1{
+    font-size: 3rem;
+
+}
+h2{
+    font-size: 2rem;
+}
+
+
+section{
+    display: flex;
+    padding: 20px 10px;
+}
+
+article{
+    flex:1;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+}
+
+.splitart{
+    display:flex ;
+    background-color: #495e57;
+
+}
+
+.splitart div{
+    flex: 100%;
+}
+
+.lemon-us{
+    background-color: #495e57;
+}
+ 
+.lemon-us  p{
+    background-color: #495e57;
+}
+
+.lemon-us  h2{
+    background-color: #495e57;
+}
+
+article button{
+    
+        padding: 9px 25px;
+        background-color:#f4ce14;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        margin-right: 20px;
+        color:white;
+    
 }
