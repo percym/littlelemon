@@ -1,65 +1,106 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Little Lemon</title>
-        <meta name="description" content="A brief description">
-        <meta name="author" content="Little Lemon Restraunt">
 
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Little Lemon" />
+    <meta property="og:url" content="https://www.littlelemon.com" />
+    <meta property="og:image" content="" />
+    <title>Little Lemon</title>
+   
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet">
-    </head>
+</head>
+
+<body>
     <header>
-        
-                <img src="logo/copygreen.png" alt="little lemon" class="header-img">
+        <img class="logo" src="logo/logoyellow.png" alt="lemon logo">
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Order</a></li>
+                <li><a href="#">Book</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contact</button></a>
     </header>
-    <nav class="navbar">
-        <ul class="nav-links">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li  class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-            <li  class="nav-item"><a href="book.html" class="nav-link">Book</a></li>
-            <li  class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-        </ul>
-    </nav>
     <main>
-        <section>
-            <article>
-                <h1>Heading 1</h1>
+        <section class="lemon-us">
+
+            <article class="article-back">
+                <div>
+                    <h2>Little Lemon Order</h2>
                     <p>
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
+                        Based in Chicago, Illinois, Little Lemon is a family-owned Mediterranean restaurant, focused on
+                        traditional recipes served with a modern twist. The chefs draw inspiration from Italian, Greek,
+                        and Turkish culture and have a menu of 12–15 items that they rotate seasonally. The restaurant
+                        has a rustic and relaxed atmosphere with moderate prices, making it a popular place for a meal
+                        any time of the day.
                     </p>
+
+                </div>
+                <a href="#" class="el-button"><button> Place an order</button></a>
             </article>
         </section>
         <section>
             <article>
-                <h2>Heading 2</h2>
-                    <p>
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                    </p>
+                <div class="card-container">
+                    <div class="square">
+                        <img src="brushchetta.png" class="mask">
+                        <div class="h1-card">Brushchetta - $12.99</div>
+                        <p>Toasted bread, topped with tomato, proscuito and cheese . Seasoned with salt and olive oil.
+                        </p>
+                        <div class="el-button">
+                            <a href="#" target="#" class="el-button pad-25"><button>Order</button> </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </article>
             <article>
-                <h2>Heading 3</h2>
-                    <p>
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                    </p>
+                <div class="card-container">
+                    <div class="square">
+                        <img src="greek-salad.jpg" class="mask">
+                        <div class="h1-card">Greek Salad - $16.50</div>
+
+                        <p>Refreshing salad made with tomato , lettuce, fretta cheese and olives. Dressed with salt, hot
+                            pepper and olive oil.
+                        </p>
+                        <div class="el-button">
+                            <a href="#" target="#" class="el-button pad-25"><button>Order</button> </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </article>
             <article>
-                <h2>Heading</h2>
-                    <p>
-                        Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem
-                    </p>
+                <div class="card-container">
+                    <div class="square">
+                        <img src="lemon-cake.png" class="mask">
+                        <div class="h1-card">Lemon Cake - $11.50</div>
+                        <p>Fresh backed lemon bread coated in salt and sugar. Powdered in citrus and lemon zest.
+                        </p>
+                        <div class="el-button">
+                            <a href="#" target="#" class="el-button pad-25"><button>Order</button> </a>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </article>
         </section>
     </main>
     <footer>
         <div>
-            <img src="" alt="">
+            <img src="logo/boxyellow.png" alt="Little Lemon Footer" class="footer-img">
         </div>
         <div>
-            <p>Copyright Little Lemon </p>
+            <p class="footer-note">Copyright Little Lemon </p>
         </div>
-    </footer>
+    </footer>    
+</body>
+
 </html>
